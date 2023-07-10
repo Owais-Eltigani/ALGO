@@ -6,4 +6,4 @@ const decimal_Binary = (decimal: number, result: string = ''): string => {
   return decimal_Binary(Math.floor(decimal / 2), result);
 };
 
-console.log(decimalBinary(2));
+console.log(decimal_Binary(2));
