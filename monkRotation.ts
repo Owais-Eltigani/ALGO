@@ -1,5 +1,4 @@
-const prompt = require('prompt-sync')();
-
+import prompt from 'prompt-sync';
 function shift(arr: number[], num: number) {
   for (let i = 0; i < num; i++) {
     let temp = arr.pop()!;
