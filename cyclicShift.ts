@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 //=======================
 
-let testCases = Number(prompt('enter test cases: '));
+let testCases = Number(prompt());
 
 while (testCases--) {
   const cycle = Number(prompt());
