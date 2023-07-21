@@ -1,4 +1,5 @@
 import prompt from 'prompt-sync';
+
 function shift(arr: number[], num: number) {
   for (let i = 0; i < num; i++) {
     let temp = arr.pop()!;
@@ -24,7 +25,7 @@ while (testCases--) {
   const size = Number(prompt());
   const rotations = Number(prompt());
 
-  const arr = [];
+  const arr: number[] = [];
 
   for (let i = 0; i < size; i++) {
     let num: number = Number(prompt());

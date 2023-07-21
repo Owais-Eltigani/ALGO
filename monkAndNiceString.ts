@@ -35,26 +35,26 @@ while (testCases--) {
     record.push(sortBase(arr[i]));
   }
 
-  arr.sort((str1: string, str2: string) => {
-    let count1 = 0;
-    for (let i = 0; i < str1.length; i++) {
-      count1 += str1[i].charCodeAt(0) - 91;
-    }
+  //   arr.sort((str1: string, str2: string) => {
+  //     let count1 = 0;
+  //     for (let i = 0; i < str1.length; i++) {
+  //       count1 += str1[i].charCodeAt(0) - 91;
+  //     }
 
-    let count2 = 0;
-    for (let i = 0; i < str2.length; i++) {
-      count2 += str2[i].charCodeAt(0) - 91;
-    }
+  //     let count2 = 0;
+  //     for (let i = 0; i < str2.length; i++) {
+  //       count2 += str2[i].charCodeAt(0) - 91;
+  //     }
 
-    if (count1 < count2) {
-      return -1;
-    }
-    if (count1 > count2) {
-      return 1;
-    }
+  //     if (count1 < count2) {
+  //       return -1;
+  //     }
+  //     if (count1 > count2) {
+  //       return 1;
+  //     }
 
-    return 0;
-  });
+  //     return 0;
+  //   });
 
   arr.forEach((_, index) => {
     print(record, index);
