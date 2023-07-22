@@ -1,4 +1,5 @@
-const prompt = require('prompt-sync')();
+// const prompt = require('prompt-sync')();
+import prompt from 'prompt-sync';
 
 const checkInversion = (
   arr: number[][],

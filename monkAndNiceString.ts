@@ -1,5 +1,5 @@
-const prompt = require('prompt-sync')();
-// import prompt from 'prompt-sync';
+// const prompt = require('prompt-sync')();
+import prompt from 'prompt-sync';
 function sortBase(str1: string) {
   let count1 = 0;
   for (let i = 0; i < str1.length; i++) {
@@ -31,7 +31,7 @@ while (testCases--) {
   let count = 0;
 
   for (let i = 0; i < size; i++) {
-    arr[i] = prompt()!;
+    arr[i] = String(prompt());
     record.push(sortBase(arr[i]));
   }
 
