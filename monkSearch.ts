@@ -1,5 +1,5 @@
-const prompt = require('prompt-sync')();
-// import prompt from 'prompt-sync';
+// const prompt = require('prompt-sync')();
+import prompt from 'prompt-sync';
 
 function type1(nums: number[], num: number) {
   let sum = 0;
